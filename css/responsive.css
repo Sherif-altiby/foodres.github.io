@@ -1,0 +1,226 @@
+/* make header responsive */
+
+@media (max-width: 992px) {
+  header {
+    padding: 0 20px;
+  }
+  header .menuse-header {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    right: 20px;
+    background-color: rgb(190, 202, 202);
+    border-radius: 5px;
+  }
+  header .menuse-header ul {
+    flex-direction: column;
+    gap: 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  header .menuse-header ul li {
+    width: 100%;
+    margin: 0 5px;
+  }
+
+  header .icons .fa-bars {
+    display: block;
+  }
+}
+@media (max-width: 500px) {
+  header .overlay input {
+    width: 250px;
+  }
+}
+@media (max-width: 300px) {
+  header {
+    padding: 0 5px 0 0;
+  }
+  header .icons svg {
+    font-size: 16px;
+    margin: 0 4px;
+  }
+}
+
+/* make main dish section responsive */
+@media (max-width: 1100px) {
+  .carousel .carousel-item img {
+    max-width: 450px;
+    height: 300px;
+  }
+  .carousel .carousel-item h1 {
+    font-size: 60px;
+  }
+  .carousel .carousel-item h2 {
+    font-size: 23px;
+  }
+}
+@media (max-width: 992px) {
+  .carousel .carousel-item {
+    padding: 50px 100px;
+    margin-top: 10px;
+    height: calc(100vh - 80px);
+  }
+
+  .d-flex {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .carousel .carousel-item .info {
+    text-align: center;
+  }
+  .carousel .carousel-item h1 {
+    font-size: 50px;
+  }
+  .carousel .carousel-item p {
+    width: 600px;
+    line-height: 28px;
+  }
+}
+@media (max-width: 600px) {
+  .carousel .carousel-item img {
+    max-width: 300px;
+    height: 200px;
+  }
+  .d-flex {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+  .carousel .carousel-item .info {
+    text-align: center;
+  }
+  .carousel .carousel-item p {
+    width: 350px;
+    font-size: 17px;
+    line-height: 19px;
+  }
+  .carousel .carousel-item h1 {
+    font-size: 40px;
+  }
+  .carousel .carousel-item button {
+    margin-top: 0;
+  }
+}
+/* make p in our dishes sectio responsive */
+
+@media (max-width: 600px) {
+  .our-dishes p {
+    font-size: 40px;
+  }
+}
+/* About */
+@media (max-width: 1100px) {
+  .about .content {
+    flex-direction: column;
+    text-align: center;
+  }
+  .about .text p {
+    text-align: center;
+    margin: auto;
+  }
+  .about .img img {
+    width: 100%;
+  }
+}
+@media (max-width: 640px) {
+  .about p.our {
+    font-size: 30px;
+  }
+  .about .text p {
+    font-size: 18px;
+    font-weight: 500;
+    max-width: 460px;
+  }
+  .about .text h2 {
+    font-size: 33px;
+  }
+  .learn {
+    margin: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  .about p.our {
+    font-size: 20px;
+  }
+  .about .text p {
+    font-size: 16px;
+    font-weight: 500;
+    max-width: 360px;
+  }
+  .about .text h2 {
+    font-size: 30px;
+  }
+  .learn {
+    margin: auto;
+    text-align: center;
+  }
+}
+/* order */
+@media (max-width: 1150px) {
+  .order {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 1050px) {
+  .order .user-order input {
+    width: 400px;
+  }
+  .order textarea {
+    width: 400px;
+  }
+}
+@media (max-width: 950px) {
+  .order .user-order input {
+    width: 350px;
+  }
+  .order textarea {
+    width: 350px;
+  }
+}
+@media (max-width: 850px) {
+  .order .user-order input {
+    width: 600px;
+  }
+  .order textarea {
+    width: 600px;
+  }
+}
+@media (max-width: 690px) {
+  .order .user-order input {
+    width: 500px;
+  }
+  .order textarea {
+    width: 500px;
+  }
+}
+@media (max-width: 590px) {
+  .order .user-order input {
+    width: 350px;
+  }
+  .order textarea {
+    width: 350px;
+  }
+}
+@media (max-width: 450px) {
+  .order .user-order input {
+    width: 300px;
+  }
+  .order textarea {
+    width: 300px;
+  }
+}
+@media (max-width: 450px) {
+  .order {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+/* footer */
+@media (max-width: 420px) {
+  footer .copy {
+    font-size: 15px;
+  }
+}
